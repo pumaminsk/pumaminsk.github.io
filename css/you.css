@@ -1,0 +1,104 @@
+*{
+	box-sizing: border-box;
+}
+
+
+body {
+	color: azure;
+	font-size: 30px;
+	background-image: url(/1.png);
+	background-repeat: repeat;
+	background-position: left top;
+	background-size: 100%;
+	
+}
+	.row:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0%;
+}
+
+.row {
+	display: inline-block;
+}
+/* start commented backslash hack \*/
+* html .row{
+	height: auto;
+	width: auto;
+}
+
+.row {
+	display: block;
+	height: auto;
+	width: auto;
+}
+/* close commented backslash hack */
+
+.header {
+	font-size: 30px;
+	position:fixed;
+	
+}
+.inner-header {
+	background: #000000;
+	margin-bottom: 0px;
+	font-size: 1.4em;
+	padding-left: 100px;
+	padding-top: 10px;
+	min-height: 120px;
+	max-width: 100%;
+	font-family: 'Lacquer', sans-serif;
+	font-family: 'Sriracha', cursive;
+	font-family: 'Dosis', sans-serif;
+	border: white;
+}
+
+
+.field {
+	text-align: center;
+	Float: right;
+	margin-right: 20px;
+	margin-top: 30px;
+}
+img {
+	background-image: url(img1/image1.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	transition: 1s all;
+	max-width: 100%;
+}
+
+.footer {
+	text-align: right;
+	font-family: serif;
+	font-size: 15px;
+	width: 100%;
+	background: pink;
+	color:black;
+	height: 20px;
+	border-color:pink;
+	
+	
+}
+
+user agent stylesheet
+.footer {
+	display: block;
+	
+}
+
+.priv {
+	font-family: 'Lacquer', sans-serif;
+	font-family: 'Sriracha', cursive;
+	font-family: 'Dosis', sans-serif;
+	text-align: center;
+	font-size: 50px;
+}
+.top-menu{
+	border-color: aliceblue;
+}

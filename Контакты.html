@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0
+        }
+
+        #action_form {
+            position: absolute;
+            width: 200px;
+            height: 150px;
+            left: 50%;
+            top: 50%;
+            margin-left: -100px;
+            margin-top: -100px;
+            border: 1px solid
+        }
+
+        form {
+            padding: 14px
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html, body {
+            height: 100%;
+        }
+
+        figure {
+            background-image: url("image.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+            min-height: 100vh;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Tomorrow&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+    <figure>
+        <header>
+
+            <h1>Наши контакты</h1>
+
+            <content>
+                <p class="menu">
+                    <br> Адрес: ТЦ "Замок" 8(029) 3938039</br>
+                    <br>пр.Победителей 65,1 этаж</br>
+                    <br>ТРЦ “Galleria Minsk” 8(044)7839939</br>
+                    <br>пр.Победителей 9,4этаж</br>
+                    <br>Телефон: 8025605982</br>
+                </p>
+            </content>
+        </header>
+        <div id="action_form">
+            <form action="game/game.php" method="post">
+                <label for="username"><font color="black" size="5">Логин:</font></label>
+                <input name="username" id="username" type="text"><br />
+                <label for="password"><font color="black" size="5">Пароль:</font></label>
+                <input name="password" id="password" type="password">
+                <p><input type="submit" value="Войти"></p>
+            </form>
+        </div>
+        <button><a href="index.html">Вернуться на главную</a></button>
+        <div id="mymap">
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab9c7f4375fb64255991205a5221d0531a9a8517cc6a9f15a89a76c45eab530d4&amp;source=constructor" width="550%" height="40%" frameborder="0"></iframe>
+            
+        </div>
+      
+    </figure>
+    <footer>
+        Все права защищены © 2020
+    </footer>
+</body>
+</html>
+    
+    
+
+
+

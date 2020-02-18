@@ -1,0 +1,128 @@
+h1 {
+
+    text-align: center;
+    font-size: 30px;
+    color: blanchedalmond;
+    font-family: serif;
+    font-style: normal;
+}
+
+user agent stylesheet
+h1 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align:center;
+}
+.menu{
+    font-size: 150 px;
+}
+.menu {
+    color: antiquewhite;
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+body{
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+p{
+    color: red;
+text {
+            text-align:center;
+            font-size:30px;
+        }
+
+}
+
+
+#action_form {
+    position: absolute;
+    width: 400px;
+    height: 150px;
+    left: 50%;
+    top: 50%;
+    margin-left: -190px;
+    margin-top: -110px;
+    border: 1px solid;
+    background-color: aliceblue;
+    border-color: black;
+}
+
+
+footer {
+    text-align: right;
+    font-family: serif;
+    font-size: 15px;
+    width: 100%;
+    background: pink;
+}
+
+user agent stylesheet
+footer {
+    display: block;
+}
+.inner-footer {
+    background: #e0dcc9;
+    height: 100px;
+    min-width: 2000px;
+    font-family: Arial;
+    font-size: 20px;
+    color: lightpink;
+    text-align: right;
+}
+button {
+    margin-left: 750px;
+    margin-top:450px;
+    margin-bottom:40px;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    font-family: fantasy;
+    color: black;
+    background-color: aqua;
+    font-family:  'Goudy Old Style';
+    align:center center;
+  
+
+}
+
+user agent stylesheet
+button {
+    -webkit-appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: black;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: black;
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: black;
+    border-image: initial;
+}
+.mymap{
+    align:center;
+    width:550%;
+    height:20%;
+    border-color:pink;
+
+}

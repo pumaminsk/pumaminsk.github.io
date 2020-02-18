@@ -1,0 +1,104 @@
+figure {
+    background-image: url(image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+  
+}
+user agent stylesheet
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    padding-left: 40px;
+}
+.menu {
+    text-align: left;
+    color: aliceblue;
+    padding-left: 40px;
+}
+.wow {
+    color: burlywood;
+    padding-left: 60px;
+}
+p {
+    color: aliceblue;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-left: 60px;
+}
+button {
+    margin-bottom:100px;
+    margin-left: 750px;
+    margin-top: 120px;
+    width: 260px;
+    height: 30px;
+    font-size: 20px;
+    font-family: fantasy;
+    color: black;
+    background-color: pink;
+    font-family: 'Goudy Old Style';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+user agent stylesheet
+button {
+    -webkit-appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: buttonface;
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+}
+ 
+    footer
+{
+    text-align: right;
+    font-family: serif;
+    font-size: 15px;
+    width: 100%;
+    background: pink;
+}
+
+user agent stylesheet
+footer {
+    display: block;
+}
